@@ -4,3 +4,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Utils */
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.text-gray {
+    color: #808080
+}
+
+.text-lightblue {
+    color: #4cb7e9;
+}
+
+/* Generics */
+
+
+
+/* Header */
+
+.header-top {
+    height: 100px;
+    background-color: #4ea0ffff;
+    background-image: url(../img/pattern.png);
+    background-size: 25%;
+    line-height: 100px;
+    padding-left: 5px;
+    padding-top: 1px;
+
+}
+
+#logo {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.header-bottom {
+    padding: 15px 0;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 900;
+}
+
+address {
+    font-style: normal;
+    font-size: 1.2em;
+}
