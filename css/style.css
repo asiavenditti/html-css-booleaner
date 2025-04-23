@@ -86,7 +86,7 @@ article {
 }
 
 table {
-    margin-top: 20;
+    margin-top: 20px;
     border-collapse: collapse;
 
 }
@@ -99,4 +99,25 @@ th {
 
 td {
     background-color: #c6ebf7;
+}
+
+
+
+.aside-title {
+
+    color: white;
+    height: 150px;
+    width: 200px;
+    padding: 10px;
+    margin: 15px 0;
+    background-repeat: no-repeat;
+    font-size: 1.2em;
+}
+
+#monitor {
+    background-image: url(../img/monitor.jpg);
+}
+
+#graphic {
+    background-image: url(../img/graph.jpg);
 }
