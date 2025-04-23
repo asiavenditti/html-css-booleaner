@@ -20,6 +20,25 @@
     color: #4cb7e9;
 }
 
+
+.text-small {
+    font-size: 12px;
+}
+
+.highlights {
+    background-color: yellow;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.bgc-white {
+    background-color: white;
+}
+
+
+
 /* Generics */
 
 
@@ -47,11 +66,37 @@
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 40px;
     font-weight: 900;
 }
 
 address {
     font-style: normal;
     font-size: 1.2em;
+}
+
+/* Main */
+
+article {
+    padding: 20px 0;
+}
+
+.position {
+    list-style-position: inside;
+}
+
+table {
+    margin-top: 20;
+    border-collapse: collapse;
+
+}
+
+th {
+    background-color: #42aad3;
+    color: white;
+    text-align: left;
+}
+
+td {
+    background-color: #c6ebf7;
 }
